@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
+import { motion, useMotionTemplate, useMotionValue, useSpring, useTransform } from "motion/react";
 import { useRef } from "react";
 import { Brain, Languages, Database, Cpu, Tags, MessageSquareQuote, LineChart, Network } from "lucide-react";
 
@@ -75,10 +75,7 @@ function TiltCard({ children, index }: { children: React.ReactNode; index: numbe
         aria-hidden
         className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
         style={{
-          background: useTransform(
-            [glowX, glowY] as never,
-            ([x, y]: string[]) => `radial-gradient(220px circle at ${x} ${y}, oklch(0.88 0.22 130 / 0.18), transparent 70%)`,
-          ),
+          background: useMotionTemplate`radial-gradient(220px circle at ${glowX} ${glowY}, oklch(0.88 0.22 130 / 0.18), transparent 70%)`,
         }}
       />
       <div className="relative [transform:translateZ(20px)]">{children}</div>
