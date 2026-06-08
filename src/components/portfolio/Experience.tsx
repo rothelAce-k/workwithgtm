@@ -28,8 +28,8 @@ const jobs = [
   },
   {
     company: "Sigma AI",
-    role: "AI Data Strategist & Linguist",
-    blurb: "Designed annotation frameworks and quality pipelines for enterprise NLP models. Led multilingual data collection across 12 languages.",
+    role: "AI Coding Trainer — Python & Data Science",
+    blurb: "Trained and evaluated frontier code-generation models. Built Python-focused RLHF datasets, debugged complex data-science pipelines, and established coding-style rubrics for enterprise AI systems.",
     color: "oklch(0.78 0.16 80)",
   },
 ];
