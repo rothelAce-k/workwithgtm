@@ -27,9 +27,9 @@ const jobs = [
     color: "oklch(0.65 0.2 320)",
   },
   {
-    company: "RWS",
-    role: "Linguistic Quality Specialist",
-    blurb: "Authored style guides and TM curation strategies powering high-volume translation workflows.",
+    company: "Sigma AI",
+    role: "AI Data Strategist & Linguist",
+    blurb: "Designed annotation frameworks and quality pipelines for enterprise NLP models. Led multilingual data collection across 12 languages.",
     color: "oklch(0.78 0.16 80)",
   },
 ];
